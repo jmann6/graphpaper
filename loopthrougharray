@@ -1,0 +1,11 @@
+/*Fill color from Process.js */
+
+var favAnimals = ["dog", "cat", "fish"];
+
+fill(51, 46, 46);
+
+var animalNum = 0;
+while(animalNum < favAnimals.length) {
+    text(favAnimals[animalNum], 10, 30+animalNum*30);
+    animalNum++;
+}
