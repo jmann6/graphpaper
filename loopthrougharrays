@@ -37,3 +37,16 @@ for (var i = 0; i < movies.length; i++) {
 }
 
 //Make sure you're using your loop variable to determine what element of the array to display.
+
+
+
+
+
+/* Create a method called 'requiredValues' that returns an array of all the values of inputs with the class of 'required'. */
+
+var someArray = new Array();
+$(".classYouNeed").each(function () {
+  someArray.push($(this).val());
+});
+
+
