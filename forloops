@@ -1,5 +1,5 @@
 background(255, 255, 247);
-stroke(173, 222, 237);
+stroke(173, 222, 237);  /* Light blue */
 
 for (var i = 0; i < 20; i++){
     var lineX = 20 + (i * 20);
